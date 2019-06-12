@@ -8,7 +8,7 @@ from utils import keyword_spot
 config = get_config()   # get arguments from parser
 
 # downloaded dataset path
-audio_path= r'/content/VCTK-Corpus'                                          # utterance dataset
+audio_path= r'/content/VCTK-Corpus/wav48'                                          # utterance dataset
 clean_path = r'/content/clean_testset_wav'  # clean dataset
 noisy_path = r'/content/noisy_testset_wav'  # noisy dataset
 
